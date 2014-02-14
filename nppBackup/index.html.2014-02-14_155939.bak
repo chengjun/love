@@ -16,19 +16,16 @@
 	<script type="text/javascript" src="js/functions_dev.js"></script>
 </head>
 
-<!--
-<audio src="type.mp3" controls autoplay loop hidden>
-<p>Your browser does not support the audio element.</p>
-</audio>
--->
+<embed name="type" src="media/type.mp3" loop="true" hidden="true" autostart="true">
+
 <!--back ground type sound-->
 
 <body>
 	<div id="mainDiv">
 		<div id="content">
-			<audio id="sound"> <!--back ground type sound-->
-				<source src="media/type.ogg" type="audio/ogg" />
-				<source src="media/type.mp3" type="audio/mpeg" />
+			<audio id="sound">
+				<source src="assets/media/type.ogg" type="audio/ogg" />
+				<source src="assets/media/type.mp3" type="audio/mpeg" />
 				Your browser does not support HTML5 audio.
 			</audio>
 			<div id="code">
@@ -38,7 +35,7 @@
 				<span class="space"/><span class="comments">*/</span><br />
 				Boy i = <span class="keyword">new</span> Boy(<span class="string">"chengjun"</span>);<br />
 				Girl u = <span class="keyword">new</span> Girl(<span class="string">"xiaoqing");<br />
-				<span class="comments">// June 16, 2011, I told you I love you. </span><br />
+				<span class="comments">// July 1, 2011, I told you I love you. </span><br />
 				i.love(u);<br />
 				<span class="comments">// Luckily, you accepted and became my girlfriend ever since.</span><br />
 				u.accepted();<br />

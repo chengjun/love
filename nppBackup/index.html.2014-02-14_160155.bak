@@ -20,6 +20,7 @@
 <audio src="type.mp3" controls autoplay loop hidden>
 <p>Your browser does not support the audio element.</p>
 </audio>
+back ground type sound
 -->
 <!--back ground type sound-->
 
@@ -38,7 +39,7 @@
 				<span class="space"/><span class="comments">*/</span><br />
 				Boy i = <span class="keyword">new</span> Boy(<span class="string">"chengjun"</span>);<br />
 				Girl u = <span class="keyword">new</span> Girl(<span class="string">"xiaoqing");<br />
-				<span class="comments">// June 16, 2011, I told you I love you. </span><br />
+				<span class="comments">// July 1, 2011, I told you I love you. </span><br />
 				i.love(u);<br />
 				<span class="comments">// Luckily, you accepted and became my girlfriend ever since.</span><br />
 				u.accepted();<br />
